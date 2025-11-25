@@ -1,4 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
+  fetch("tasas.json")
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById("usd").textContent = data.bsToUsd;
+      document.getElementById("eur").textContent = data.bsToEur;
+      document.getElementById("cop").textContent = data.copToUsd;
+    })
+    .catch(error => {
+      console.error("Error al cargar tasas.json:", error);
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
   const bsInput = document.querySelectorAll("input")[0];
   const usdInput = document.querySelectorAll("input")[1];
   const eurInput = document.querySelectorAll("input")[2];
