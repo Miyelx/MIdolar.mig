@@ -106,7 +106,7 @@ p {
  }
 
 .bs {
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .euro{
@@ -124,7 +124,7 @@ p {
 input {
   border-radius: 60px;
   font-size: 30px;
-  width: 75%;
+  width: 440px;
   height: 60px;
   padding: 5px 20px;
 }
