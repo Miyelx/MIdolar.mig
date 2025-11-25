@@ -1,0 +1,76 @@
+<html> <!-- Inicio del documento HTML -->
+  <head> <!-- Inicio del encabezado del documento -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <!-- Define el tipo de contenido y codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css"/> <!-- Enlace a la hoja de estilos externa -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="MIG.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Midolar</title><!-- titulo de la pagina -->
+   </head>
+   
+<body> <!-- Comienzo del cuerpo de la página -->
+ 
+  <div>
+    <h2 class="info"><img src="MIG(copia).png" width="50px"></h2>
+  </div>
+ 
+<section class="caja">
+  <!-- Bloque de precios a la izquierda -->
+  <div class="divisas">
+    <p class="precios"> 
+       -Venezuela(Bolívar):
+       <br>💵 Dólar: {{"%.2f"|format(dolar)}} Bs. 
+       <br> 💶 Euro: {{"%.2f"|format(euro)}} Bs.
+     </p>
+     <p class="precios">
+      -Colombia(Pesos):
+       <br>💵️ Dólar: {{peso}} Cop.
+       <br>💶 Euro: {{"%.2f"|format((euro|float / dolar|float)*(peso|float))}} Cop.
+     </p>
+  </div>
+  
+  <!-- Bloque del convertidor a la derecha -->
+  <div class="contenedor">  
+    <h2>
+      <div class="di">
+        <p class="bs">Bs:</p>
+        <input type="text" placeholder="Bolívares">
+      </div>  
+    </h2> 
+    
+    <h2>
+      <div class="di">
+        <p>$:</p>
+        <input type="text" placeholder="Dólares">
+      </div>  
+    </h2> 
+  
+    <h2 class="euro">
+      <div class="di">
+        <p>€:</p>
+        <input type="text" placeholder="Euros">
+      </div>  
+    </h2> 
+    
+    <h2 class="peso-colombiano">
+      <div class="di">
+        <p class="peso">Cop:</p>
+        <input type="text" placeholder="Peso colombiano">
+      </div>  
+    </h2>   
+  </div> 
+</section>
+
+  <footer> <!-- Pie de página con información adicional -->
+    <p class="footer">Gracias por visitar. Comparte esta página con tus amigos 😁️</p>
+  </footer>
+  
+ <script src="convertidor.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7715995323934554" crossorigin="anonymous"></script>
+   
+<body>
+
+</html>
