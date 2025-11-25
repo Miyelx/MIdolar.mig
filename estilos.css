@@ -101,12 +101,12 @@ p {
   color: #000000FF;
   font-size: 30px;
   padding: 10px;
-  margin: 6px;
+  margin: 26px;
   margin-right:10px;
  }
 
 .bs {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .euro{
@@ -118,13 +118,13 @@ p {
 }
 
 .peso{
-  margin-right:5px;
+  margin-right:0px;
 }
 
 input {
   border-radius: 60px;
   font-size: 30px;
-  width: 440px;
+  width: 75%;
   height: 60px;
   padding: 5px 20px;
 }
