@@ -1,6 +1,6 @@
 {
-  "name": "/Midolar/",
-  "short_name": "/Midolar/",
+  "name": "Midolar",
+  "short_name": "Midolar",
   "icons": [
     {
       "src": "MIG.png",
@@ -13,10 +13,11 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "/MIdolar.mig/",
+  "scope": "/MIdolar.mig/",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#000000",
   "description": "Aplicación Midolar",
-  "scope": "/"
+  "orientation": "any"
 }
