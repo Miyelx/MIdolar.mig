@@ -50,6 +50,10 @@ body {
   margin-bottom:20px;
 }
 
+span{
+  font-size:22px;
+}
+
  .divisas {
     width: 90%;   /* ocupa todo el ancho del contenedor padre */
     text-align: center;
