@@ -109,9 +109,16 @@ p {
   margin-right: 10px;
 }
 
+.dolar{
+  margin-right:20px;
+}
+
+.eur{
+  margin-right:20px;
+}
+
 .euro{
   margin-bottom:20px;
-  margin-left:15px;
 }
 
 .peso-colombiano{
