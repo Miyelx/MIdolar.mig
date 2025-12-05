@@ -149,7 +149,7 @@ footer {
   .caja {
     flex-direction: column; /* apila precios y convertidor */
     align-items: center;
-    margin: 20px 14px 20px 14px;
+    margin: 20px 13px 20px 14px;
   }
 
   .contenedor{
