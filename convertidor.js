@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const bsToUsd = 254.8705;   
-  const bsToEur = 297.37780199;   
-  const copToUsd = 3757.92;  
+  const bsToUsd = 257.9287;//precios de las divisas (doalar)
+  const bsToEur = 300.50756979;//euros
+  const copToUsd = 3757.92;// dolar (peso colombiano)
 
   // Venezuela
-  document.getElementById("dolarBs").textContent = bsToUsd.toFixed(2);
+  document.getElementById("dolarBs").textContent = bsToUsd.toFixed(2);//datos enviados al index.html
   document.getElementById("euroBs").textContent = bsToEur.toFixed(2);
 
   // Colombia
